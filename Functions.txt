@@ -440,4 +440,4 @@ TppMotherBaseManagement.RegisterPfRatingPointParam{
 Mission Rank Format: (f7804f9e4152.lua/TPPResult.lua)
 
 Code:
-e.RANK_THRESHOLD={S=13e4,A=1e5,B=6e4,C=3e4,D=1e4,E=0}
+e.RANK_THRESHOLD={S=13e4,A=1e5,B=6e4,C=3e4,D=1e4,E=0} // Set S=0 and the rest to nil
