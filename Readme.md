@@ -22,6 +22,6 @@ Note: To use the Easy S Rank Missions/Removal of rank restrictions on items LUA 
 
 *** Important ***
 
-As of MGSV:TPP v1.6 you can now push all LUA updates to D:\Steam\steamapps\common\MGS_TPP\master\0\00 or 01.dat and the game will register changes.
+As of MGSV:TPP v1.0.0.6 you can now push all LUA updates to D:\Steam\steamapps\common\MGS_TPP\master\0\00 or 01.dat and the game will register changes.
 
 00.dat contains the fix for Quiets mission bugs and 01.dat is empty. Use 01.dat.
