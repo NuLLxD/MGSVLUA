@@ -10,3 +10,8 @@ Edits included;
 * All Unlockables
 * All Soldiers S++ Rank
 * Instant MB/FOB Development
+
+Functions and dictionary collected from http://forum.cheatengine.org/viewtopic.php?t=583998
+Thanks to Lag
+
+Thanks to everyone in the thread who contributed.
