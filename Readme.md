@@ -11,6 +11,7 @@ Edits included;
 * All Soldiers S++ Rank // 2cd691ee890e4.lua
 * Instant MB/FOB Development // 2a707b8155b1d.lua
 * Easy S Rank Missions // TPPResults.LUA
+* Remove rank restriction on items // TPPResults.LUA
 
 Functions and dictionary collected from http://forum.cheatengine.org/viewtopic.php?t=583998
 
