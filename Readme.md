@@ -12,6 +12,7 @@ Edits included;
 * Instant MB/FOB Development
 
 Functions and dictionary collected from http://forum.cheatengine.org/viewtopic.php?t=583998
-Thanks to Lag
+
+Thanks to user @Lag
 
 Thanks to everyone in the thread who contributed.
