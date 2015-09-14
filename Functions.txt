@@ -441,3 +441,27 @@ Mission Rank Format: (f7804f9e4152.lua/TPPResult.lua)
 
 Code:
 e.RANK_THRESHOLD={S=13e4,A=1e5,B=6e4,C=3e4,D=1e4,E=0} // Set S=0 and the rest to nil
+
+
+Remove rank restriction on items: (f7804f9e4152.lua/TPPResult.lua)
+
+Code: 
+function e.RegistUsedLimitedItemLangId()mvars.res_isUsedRankLimitedItem=false
+local e={{PlayerPlayFlag.USE_CHICKEN_CAP,"name_st_chiken"},{PlayerPlayFlag.USE_STEALTH,"name_it_12043"},{PlayerPlayFlag.USE_INSTANT_STEALTH,"name_it_12040"},{PlayerPlayFlag.USE_FULTON_MISSILE,"name_dw_31007"},{PlayerPlayFlag.USE_PARASITE_CAMO,"name_it_13050"},{PlayerPlayFlag.USE_MUGEN_BANDANA,"name_st_37002"}}for t,e in ipairs(e)do
+local e,t=e[1],e[2]if e then
+if bit.band(vars.playerPlayFlag,e)==e then
+mvars.res_isUsedRankLimitedItem=false
+TppUiCommand.SetResultScore(t,"ranklimited")end
+end
+end
+if svars.isUsedSupportHelicopterAttack then
+if not mvars.res_rankLimitedSetting.permitSupportHelicopterAttack then
+mvars.res_isUsedRankLimitedItem=false
+TppUiCommand.SetResultScore("func_heli_attack","ranklimited")end
+end
+if svars.isUsedFireSupport then
+if not mvars.res_rankLimitedSetting.permitFireSupport then
+mvars.res_isUsedRankLimitedItem=false
+TppUiCommand.SetResultScore("func_spprt_battle","ranklimited")end
+end
+end
