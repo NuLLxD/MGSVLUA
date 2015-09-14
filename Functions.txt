@@ -467,3 +467,18 @@ mvars.res_isUsedRankLimitedItem=false
 TppUiCommand.SetResultScore("func_spprt_battle","ranklimited")end
 end
 end
+
+
+Quiet Useable After End Game (TppStory.lua)
+
+*** Go to line 595 and add following function e.CanArrivalQuietInMB(n) ***
+
+Code:
+gvars.str_didLostQuiet=false
+TppBuddy2BlockController.SetObtainedBuddyType(BuddyType.QUIET)
+TppBuddyService.UnsetDeadBuddyType(BuddyType.QUIET)    
+TppBuddyService.UnsetBuddyCommonFlag(BuddyCommonFlag.BUDDY_QUIET_LOST)
+TppBuddyService.UnsetBuddyCommonFlag(BuddyCommonFlag.BUDDY_QUIET_HOSPITALIZE)
+TppBuddyService.SetSortieBuddyType(BuddyType.QUIET)
+TppBuddyService.SetFriendlyPoint(BuddyFriendlyType.QUIET,100)
+TppMotherBaseManagement.RefreshQuietStatus()
