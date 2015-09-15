@@ -17,9 +17,7 @@ Edits included;
 * Easy S Rank Missions // TPPResults.LUA
 * Remove rank restriction on items // TPPResults.LUA
 
-Functions and dictionary collected from http://forum.cheatengine.org/viewtopic.php?t=583998
-
-Thanks to user @Lag
+Functions collected from http://forum.cheatengine.org/viewtopic.php?t=583998
 
 Thanks to everyone in the thread who contributed.
 
