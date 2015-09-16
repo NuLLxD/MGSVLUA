@@ -1,29 +1,25 @@
-*** Always back up your original files ***
+#Updates
 
-* Initial Commit of LUA Files
-* Added list of functions
+* Updated list of functions
 * Added updated dictionary
 * Updated functions
 * Added secondary package method
-* Added New QAR Tool
-* Added New LUA edits
+* Added new QAR Tool
+* Added new LUA edits
+* Added new packaging method
 
-Lua files in repository already contain edits.
+###Lua files in repository already contain edits.
+
 Edits included;
-* Instant Deployment // 1dae1f9daae6c.lua
-* All Unlockables // f4866469f343.lua
-* All Soldiers S++ Rank // 2cd691ee890e4.lua
-* Instant MB/FOB Development // 2a707b8155b1d.lua
+* All Unlockables - EquipDevelopConstSetting.lua
+* All Soldiers S++ Rank - MbmCommonSetting.lua
+* Instant Weapon Development - EquipDevelopFlowSetting.lua
 * Easy S Rank Missions // TPPResults.LUA
 * Remove rank restriction on items // TPPResults.LUA
 
-Functions collected from http://forum.cheatengine.org/viewtopic.php?t=583998
+Note: To use any of my edits I reccomend using the QAR tool and dictionary provided in the QAR folder.
 
-Thanks to everyone in the thread who contributed.
-
-Note: To use the Easy S Rank Missions/Removal of rank restrictions on items LUA you must use the dictionary.txt included in the QAR folder and TPPResults.LUA I have in included in the LUA folder.
-
-*** Important ***
+**Important**
 
 As of MGSV:TPP v1.0.0.6 you can now push all LUA updates to D:\Steam\steamapps\common\MGS_TPP\master\0\00 or 01.dat and the game will register changes.
 
