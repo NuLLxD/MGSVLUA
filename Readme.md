@@ -17,7 +17,7 @@ Edits included;
 * Easy S Rank Missions // TPPResults.LUA
 * Remove rank restriction on items // TPPResults.LUA
 
-Note: To use any of my edits I reccomend using the QAR tool and dictionary provided in the QAR folder.
+Note: To use any of my edits I recommend using the QAR tool and dictionary provided in the QAR folder.
 
 **Important**
 
