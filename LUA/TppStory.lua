@@ -593,6 +593,14 @@ return false
 end
 end
 function e.CanArrivalQuietInMB(n)local i=TppBuddy2BlockController.DidObtainBuddyType(BuddyType.QUIET)local e=not TppBuddyService.CheckBuddyCommonFlag(BuddyCommonFlag.BUDDY_QUIET_HOSPITALIZE)if n then
+gvars.str_didLostQuiet=false 
+TppBuddy2BlockController.SetObtainedBuddyType(BuddyType.QUIET) 
+TppBuddyService.UnsetDeadBuddyType(BuddyType.QUIET)    
+TppBuddyService.UnsetBuddyCommonFlag(BuddyCommonFlag.BUDDY_QUIET_LOST) 
+TppBuddyService.UnsetBuddyCommonFlag(BuddyCommonFlag.BUDDY_QUIET_HOSPITALIZE) 
+TppBuddyService.SetSortieBuddyType(BuddyType.QUIET) 
+TppBuddyService.SetFriendlyPoint(BuddyFriendlyType.QUIET,100) 
+TppMotherBaseManagement.RefreshQuietStatus()
 e=true
 end
 local n=not TppBuddyService.CheckBuddyCommonFlag(BuddyCommonFlag.BUDDY_QUIET_LOST)local t=not TppBuddyService.IsDeadBuddyType(BuddyType.QUIET)return((i and e)and n)and t
