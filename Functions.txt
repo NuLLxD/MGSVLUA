@@ -1,4 +1,4 @@
-Gun Format (partial): (39375763ab913.lua) 
+Gun Format (partial): (EquipParameters.lua) 
 Code:
    bullet={ 
       { 
@@ -159,7 +159,7 @@ Code:
       }
 
 
-Research Format: (f4866469f343.lua) 
+Research Format: (EquipDevelopConstSetting.lua) 
 
 Code:
 TppMotherBaseManagement.RegCstDev 
@@ -183,7 +183,7 @@ TppMotherBaseManagement.RegCstDev
 }
 
 
-Detection Format: (290cbdda48b0e.lua) 
+Detection Format: (Soldier2ParameterTables.lua) 
 
 Code:
 TppSoldier2.ReloadSoldier2ParameterTables 
@@ -214,7 +214,7 @@ TppSoldier2.ReloadSoldier2ParameterTables
 }
 
 
-Bullet Penetration Format: (63a6d1a65eed.lua) 
+Bullet Penetration Format: (RecoilMaterialTable.lua) 
 
 Code:
 TppBullet.ReloadRecoilMaterials 
@@ -230,7 +230,7 @@ TppBullet.ReloadRecoilMaterials
 }
 
 
-Motherbase Expansion Format: (2a707b8155b1d.lua) 
+Motherbase Expansion Format: (MbmCommonSetting20BaseResSec.lua) 
 
 Code:
 TppMotherBaseManagement.RegisterCommandClusterBuildParam 
@@ -253,7 +253,7 @@ TppMotherBaseManagement.RegisterCommandClusterBuildParam
 }
 
 
-Motherbase Function Format: (2a707b8155b1d.lua) 
+Motherbase Function Format: (MbmCommonSetting20BaseResSec.lua) 
 
 Code:
 TppMotherBaseManagement.RegisterSectionFuncRankLines 
@@ -268,7 +268,7 @@ TppMotherBaseManagement.RegisterSectionFuncRankLines
 }
 
 
-Motherbase Resource Generation Format: (2a707b8155b1d.lua) 
+Motherbase Resource Generation Format: (MbmCommonSetting20BaseResSec.lua) 
 
 Code:
 TppMotherBaseManagement.RegisterAutoResourceParam 
@@ -284,7 +284,7 @@ TppMotherBaseManagement.RegisterAutoResourceParam
 }
 
 
-Motherbase Container Processing Format: (2a707b8155b1d.lua) 
+Motherbase Container Processing Format: (MbmCommonSetting20BaseResSec.lua) 
 
 Code:
 TppMotherBaseManagement.RegisterContainerProcessingParam 
@@ -307,7 +307,7 @@ TppMotherBaseManagement.RegisterContainerProcessingBasicParam
 }
 
 
-Motherbase Sickbay Format: (2a707b8155b1d.lua) 
+Motherbase Sickbay Format: (MbmCommonSetting20BaseResSec.lua) 
 
 Code:
 TppMotherBaseManagement.RegisterMedicalSectionFuncTreatmentParam 
@@ -345,7 +345,7 @@ TppMotherBaseManagement.RegisterMedicalSectionFuncTreatmentParam
 }
 
 
-Support Strike Cost Format: (3d8bbdd5947a4.lua) 
+Support Strike Cost Format: (MbmCommonSetting60DbPfLang.lua) 
 
 Code:
 TppSupportRequest.RegisterSupportAttackGmpCostTable 
@@ -394,7 +394,7 @@ TppSupportRequest.RegisterSupportAttackGmpCostTable
 }
 
 
-FOB Security Cost Format: (3d8bbdd5947a4.lua) 
+FOB Security Cost Format: (MbmCommonSetting60DbPfLang.lua) 
 
 Code:
 endTppMotherBaseManagement.RegisterFobSecurityCostParam{ 
@@ -422,7 +422,7 @@ endTppMotherBaseManagement.RegisterFobSecurityCostParam{
 }
 
 
-PF Point Shop Format: (3d8bbdd5947a4.lua) 
+PF Point Shop Format: (MbmCommonSetting60DbPfLang.lua) 
 
 Code:
 TppMotherBaseManagement.RegisterPfRatingPointParam{ 
@@ -437,13 +437,13 @@ TppMotherBaseManagement.RegisterPfRatingPointParam{
 }
 
 
-Mission Rank Format: (f7804f9e4152.lua/TPPResult.lua)
+Mission Rank Format: (TPPResult.lua)
 
 Code:
 e.RANK_THRESHOLD={S=13e4,A=1e5,B=6e4,C=3e4,D=1e4,E=0} // Set S=0 and the rest to nil
 
 
-Remove rank restriction on items: (f7804f9e4152.lua/TPPResult.lua)
+Remove rank restriction on items: (TPPResult.lua)
 
 *** Compare to your structure and change true/false values to below, or just replace your function with mine. ***
 
