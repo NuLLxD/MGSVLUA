@@ -513,3 +513,9 @@ Code:
 	p72=0,
 	p73=0,
 	p74=1
+
+
+All Soldiers S++ Rank: ()
+
+Code:
+this={}TppMotherBaseManagement.RegisterStaffTypePeaks{staffTypeId=1,combatRate=490,developRate=490,medicalRate=490,supportRate=490,spyRate=490,baseDevRate=490} // Set all rates to 490 for S++
