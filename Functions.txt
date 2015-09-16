@@ -515,7 +515,7 @@ Code:
 	p74=1
 
 
-All Soldiers S++ Rank: ()
+All Soldiers S++ Rank: (MbmCommonSetting.lua)
 
 Code:
 this={}TppMotherBaseManagement.RegisterStaffTypePeaks{staffTypeId=1,combatRate=490,developRate=490,medicalRate=490,supportRate=490,spyRate=490,baseDevRate=490} // Set all rates to 490 for S++
