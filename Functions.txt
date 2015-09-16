@@ -469,7 +469,7 @@ end
 end
 
 
-Quiet Useable After End Game (TppStory.lua)
+Quiet Useable After End Game: (TppStory.lua)
 
 *** Go to line 595 and add following function e.CanArrivalQuietInMB(n) ***
 
@@ -482,3 +482,34 @@ TppBuddyService.UnsetBuddyCommonFlag(BuddyCommonFlag.BUDDY_QUIET_HOSPITALIZE)
 TppBuddyService.SetSortieBuddyType(BuddyType.QUIET)
 TppBuddyService.SetFriendlyPoint(BuddyFriendlyType.QUIET,100)
 TppMotherBaseManagement.RefreshQuietStatus()
+
+
+Instant Weapon Development: (EquipDevelopFlowSetting.lua)
+
+Code:
+}TppMotherBaseManagement.RegFlwDev{
+	p50=707,
+	p51=0,
+	p52=4,
+	p53=48e4,
+	p54=4200,
+	p55=30,
+	p56=0,
+	p57=0,
+	p58="",
+	p59=0,
+	p60="",
+	p61=0,
+	p62=0,
+	p63=0,
+	p64=0,
+	p65="FuelResource",
+	p66=200,
+	p67="",
+	p68=0,
+	p69=0,
+	p70=0,
+	p71=0, // Set to 0
+	p72=0,
+	p73=0,
+	p74=1
