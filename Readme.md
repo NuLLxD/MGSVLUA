@@ -8,28 +8,30 @@
 * Added new LUA edits
 * Added new packaging method
 
-###Lua files in repository already contain edits.
+**Some Lua files in repository already contain edits.**
 
 Edits included;
 * All Unlockables - EquipDevelopConstSetting.lua
 * All Soldiers S++ Rank - MbmCommonSetting.lua
 * Instant Weapon Development - EquipDevelopFlowSetting.lua
-* Easy S Rank Missions // TPPResults.LUA
-* Remove rank restriction on items // TPPResults.LUA
+* Easy S Rank Missions - TPPResults.LUA
+* Remove rank restriction on items - TPPResults.LUA
 
-Note: To use any of my edits I recommend using the QAR tool and dictionary provided in the QAR folder.
+*Note: To use any of my edits I recommend using the QAR tool and dictionary provided in the QAR folder.*
 
-**Important**
+###Important
 
 As of MGSV:TPP v1.0.0.6 you can now push all LUA updates to D:\Steam\steamapps\common\MGS_TPP\master\0\00 or 01.dat and the game will register changes.
 
 00.dat contains the fix for Quiets mission bugs and 01.dat is empty. Use 01.dat.
 
-How To:
+###How To:
+
+**In this example I am using the LUA file for mission edits.**
 
 You take; 
 
-18e0f7804f9e4152|data1\Assets\tpp\script\lib\TppResult.lua key=fc44025d version=2 compressed=0 
+18e0f7804f9e4152|data1\Assets\tpp\script\lib\TppResult.lua key=fc44025d version=2 compressed=0
 
 from data1.inf, copy it to 01.inf and change data1\ to 01\. 
 
